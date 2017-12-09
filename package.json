@@ -1,0 +1,11 @@
+{
+  "name": "Nasa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcusp619/NASA-API-Fetch.git",
+  "author": "Mark Pearyer <Marcusp619@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.13.0"
+  }
+}

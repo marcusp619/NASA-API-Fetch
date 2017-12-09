@@ -1,7 +1,7 @@
 # NASA-API-Fetch
 In this project I will be pulling data from the NASA Image API using AJAX.
 
-##Goals
+## Goals
 
 - Pull data from the NASA Image API using AJAX
 - Handle 200, 400, and 500 response errors using Promises
