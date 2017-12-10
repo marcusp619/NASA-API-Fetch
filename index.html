@@ -2,12 +2,26 @@
 <html>
 <head>
   <title>NASA</title>
-  <script src="nasa.js"></script>
 </head>
 <body>
   <div class="container">
     <h1>NASA Image Search</h1>
-    <input type="text">
+    
+    <figure>
+      <img id="img_id" width="250px"/>
+    </figure>
+      
+    <cite id="copyright"></cite>
+    
+    <header>
+      <h3 id="title"></h3>
+      <p id="explaination"></p>
+    </header>
+    <input type="search" placeholder="Pluto">
+    <div>
+      <button type="submit">Search</button>
+    </div>
   </div>
 </body>
+<script src="nasa.js"></script>
 </html>
