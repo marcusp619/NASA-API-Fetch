@@ -2,8 +2,7 @@
 In this project I will be pulling data from the NASA Image API using AJAX.
 
 ## Goals
-
-- ~~ Pull data from the NASA Image API using AJAX ~~
+~~Pull data from the NASA Image API using AJAX~~
 - Handle 200, 400, and 500 response errors using Promises
 - Use destructuring to parse the JSON resonse
 - Save previous searches using the DOM localStorage API
