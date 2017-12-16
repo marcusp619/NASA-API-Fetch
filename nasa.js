@@ -15,13 +15,18 @@ var searchImg = (image) => {
   fetch("https://images-api.nasa.gov/search?q=" + image)
     .then( r => r.json())
     .then( data => {
-      response = data;
-      console.log(response);
+      response = data.collection.items;
+      // console.log(response[0].links[0].href);
+      assignVal();
     })
-    .catch(err => console.log("error is", err)); 
+    .catch(err => console.log("error is: ", err)); 
 };
 
-// var assignVal= () => {
-//   let {collection, item, description, title} = response;
-  
-// };
+var assignVal= () => {
+  for (const key in response) {
+    // console.log(response[key].links[0].href);
+    let img = document.createElement("img");
+    img.src = response[key].links[0].href;
+    document.getElementById("results").append(img);
+  }
+};
